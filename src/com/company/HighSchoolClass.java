@@ -6,7 +6,8 @@ import java.util.Arrays;
  * Created by je565 on 11/2/17.
  */
 public class HighSchoolClass {
-    private Student [] students;
+
+    private Student [] students = new Student[10];
     public double GPA;
     public boolean honorsYesNo;
 
