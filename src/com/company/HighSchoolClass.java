@@ -1,10 +1,18 @@
 package com.company;
 
+import java.util.Arrays;
+
 /**
  * Created by je565 on 11/2/17.
  */
 public class HighSchoolClass {
     private Student [] students;
+    public double GPA;
+    public boolean honorsYesNo;
+
+    public HighSchoolClass(String [] names){
+        students.equals(names);
+    }
 
     public Student getValedictorian()
     {
@@ -44,13 +52,15 @@ public class HighSchoolClass {
         return perc;
     }
 
-    public double getGPA()
+    public double getGPA(double x)
     {
-
+        GPA = x;
+        return GPA;
     }
 
-    public boolean isHonors()
+    public boolean isHonors(boolean b)
     {
-
+        honorsYesNo = b;
+        return honorsYesNo;
     }
 }
