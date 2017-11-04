@@ -7,8 +7,7 @@ public class Main {
     public static void main(String[] args) {
         String [] x = {"Jay", "Bill", "Amy", "Kate", "Jake", "Nathan", "Gabby", "Natalie", "John", "Zion"};
         HighSchoolClass highSchool = new HighSchoolClass(x);
-        highSchool.getGPA(15);
-
+        highSchool.getGPA(4.1);
     }
 }
 

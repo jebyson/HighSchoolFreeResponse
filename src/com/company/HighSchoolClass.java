@@ -65,3 +65,8 @@ public class HighSchoolClass {
         return honorsYesNo;
     }
 }
+
+/*
+The .getGPA and .isHonors methods are very confusing to me. I am not sure how to access them from the Main.java
+file, and it does not even work within the HighSchoolClass itself.
+ */
