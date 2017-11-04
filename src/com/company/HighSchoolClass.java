@@ -12,7 +12,7 @@ public class HighSchoolClass {
     public boolean honorsYesNo;
 
     public HighSchoolClass(String [] names){
-        students.equals(names);
+
     }
 
     public Student getValedictorian()
